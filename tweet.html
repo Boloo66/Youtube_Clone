@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Twitter</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        margin-top: 5px;
+        display: flex;
+        margin-left: 10px;
+        height: 50px;
+      }
+
+      img {
+        width: 45px;
+        border-radius: 30px;
+      }
+      .profile-image {
+        display: inline-block;
+        width: 50px;
+      }
+      .write-up {
+        display: inline-block;
+        margin-left: 4px;
+      }
+      .follow-button {
+        align-self: center;
+        margin: 0 100px;
+      }
+      .message,
+      .opinion {
+        font-size: 10px;
+      }
+      .message {
+        font-size: 18px;
+        width: 100px;
+      }
+      p {
+        font-size: 15px;
+        font-family: "Times New Roman", Times, serif;
+      }
+      button {
+        background-color: rgb(20, 20, 187);
+        color: white;
+        cursor: pointer;
+        border-radius: 5px;
+        flex: 1;
+        padding: 5px 10px;
+
+        border: none;
+        opacity: 0.85;
+        width: 100px;
+
+        vertical-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <div class="profile-image">
+          <img src="/imgs/profile-pic/channel-2.jpeg" alt="profile picture" />
+        </div>
+        <div class="write-up">
+          <p class="username"><strong>Oliver</strong></p>
+          <p class="message">the cat</p>
+          <p class="opinion">popular</p>
+        </div>
+        <div class="follow-button"><button>Follow 1</button></div>
+      </div>
+      <div class="container">
+        <div class="profile-image">
+          <img src="/imgs/profile-pic/channel-7.jpeg" alt="profile picture" />
+        </div>
+        <div class="write-up">
+          <p class="username"><strong>Mimi</strong></p>
+          <p class="message">the cat</p>
+          <p class="opinion">sleepy cat</p>
+        </div>
+        <div class="follow-button"><button>Follow 2</button></div>
+      </div>
+      <div class="container">
+        <div class="profile-image">
+          <img src="/imgs/profile-pic/channel-4.jpeg" alt="profile picture" />
+        </div>
+        <div class="write-up">
+          <p class="username"><strong>Rex</strong></p>
+          <p class="message">Sleepy cat</p>
+          <p class="opinion">The bull dog</p>
+        </div>
+        <div class="follow-button"><button>Follow 3</button></div>
+      </div>
+    </section>
+  </body>
+</html>

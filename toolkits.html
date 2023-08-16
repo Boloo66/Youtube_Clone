@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToolTip</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      button {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+      }
+      img {
+        height: 25px;
+      }
+      button > div {
+        position: absolute;
+        bottom: -19px;
+        opacity: 0;
+        pointer-events: none;
+        white-space: nowrap;
+      }
+      button:hover > div {
+        opacity: 1;
+      }
+      button > div {
+        background-color: black;
+        color: lightslategray;
+      }
+      button{
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+      <button>
+        <img src="/header_icos/search.svg" alt="" />
+        <div>Keep checking out this tooltip</div>
+      </button>
+    </div>
+  </body>
+</html>
